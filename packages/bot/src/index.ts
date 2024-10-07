@@ -61,12 +61,6 @@ const TestTool = {
     TestDB: MemoryDB,
 }
 
-import * as context from './context'
-import * as events from './io/events'
-import * as methods from './io/methods'
-import type { Vendor } from './provider/interface/provider'
-import * as types from './types'
-
 export {
     createBot,
     createFlow,
@@ -79,7 +73,16 @@ export {
     EVENTS,
     MemoryDB,
     TestTool,
-    utils,
+    utils
+}
+
+import * as context from './context'
+import * as events from './io/events'
+import * as methods from './io/methods'
+import type { Vendor } from './provider/interface/provider'
+import * as types from './types'
+
+export {
     context,
     events,
     methods,
