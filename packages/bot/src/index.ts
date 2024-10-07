@@ -66,6 +66,7 @@ export * from './io/events'
 export * from './io/methods'
 export type { Vendor } from './provider/interface/provider'
 export * from './types'
+export { FlowClass }
 
 export {
     createBot,
