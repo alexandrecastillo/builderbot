@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@builderbot/bot": ["node_modules/@alexandrecastillo/builderbot-bot"],
+    }
+  }
+}
