@@ -38,7 +38,7 @@
         "queue-promise": "^2.2.1"
     },
     "devDependencies": {
-        "@builderbot/bot": "workspace:^",
+        "@alexandrecastillo/builderbot-bot": "workspace:^",
         "@jest/globals": "^29.7.0",
         "@rollup/plugin-commonjs": "^25.0.7",
         "@rollup/plugin-json": "^6.1.0",
