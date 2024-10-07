@@ -28,6 +28,8 @@ import type {
 
 const URL = `https://graph.facebook.com`
 
+const A = ''
+
 class MetaProvider extends ProviderClass<MetaInterface> implements MetaInterface {
     public vendor: Vendor<any>
     public queue: Queue = new Queue()
