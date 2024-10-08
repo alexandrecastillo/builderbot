@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@builderbot/bot": ["node_modules/@alexandrecastillo/builderbot-bot"],
+      "@builderbot/bot": ["node_modules/@alexandrecastillo/builderbot-bot/*"],
     }
   }
 }
