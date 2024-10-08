@@ -1,5 +1,5 @@
 import { describe, expect, test, jest, beforeEach } from '@jest/globals'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import { TwilioProvider } from '../src/twilio/provider'
 import { TwilioCoreVendor } from '../src/twilio/core'
 
@@ -12,7 +12,7 @@ jest.mock('twilio', () => ({
     }),
 }))
 
-jest.mock('@builderbot/bot')
+jest.mock('@alexandrecastillo/builderbot-bot')
 
 describe('#TwilioProvider', () => {
     let twilioProvider: TwilioProvider

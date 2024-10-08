@@ -1,4 +1,4 @@
-import { MemoryDB } from '@builderbot/bot'
+import { MemoryDB } from '@alexandrecastillo/builderbot-bot'
 import type { Db } from 'mongodb'
 import { MongoClient } from 'mongodb'
 

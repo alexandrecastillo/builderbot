@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, jest, test } from '@jest/globals'
 import path from 'path'
 import mime from 'mime-types'
 import { writeFile } from 'fs/promises'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import wppconnect from '@wppconnect-team/wppconnect'
 import { WPPConnectProvider } from '../src'
 
@@ -24,7 +24,7 @@ jest.mock('@wppconnect-team/wppconnect', () => ({
     defaultLogger: { transports: [{ silent: true }] },
 }))
 
-jest.mock('@builderbot/bot')
+jest.mock('@alexandrecastillo/builderbot-bot')
 
 describe('#WPPConnectProvider', () => {
     let wPPConnectProvider: WPPConnectProvider

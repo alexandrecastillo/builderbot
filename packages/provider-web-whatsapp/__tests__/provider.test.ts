@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, jest, test } from '@jest/globals'
 import { WebWhatsappProvider } from '../src/index'
 import { Client } from 'whatsapp-web.js'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import mime from 'mime-types'
 import fs from 'fs'
 import path from 'path'
@@ -9,7 +9,7 @@ import { writeFile } from 'fs/promises'
 
 const phoneNumber = '1234567890@c.us'
 
-jest.mock('@builderbot/bot')
+jest.mock('@alexandrecastillo/builderbot-bot')
 
 jest.mock('../src/utils', () => ({
     wwebCleanNumber: jest.fn().mockImplementation(() => phoneNumber),

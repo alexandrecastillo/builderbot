@@ -1,4 +1,4 @@
-import type { GlobalVendorArgs } from '@builderbot/bot/dist/types'
+import type { GlobalVendorArgs } from '@alexandrecastillo/builderbot-bot/dist/types'
 
 export interface BaileyGlobalVendorArgs extends GlobalVendorArgs {
     gifPlayback: boolean

@@ -1,5 +1,5 @@
 import { join } from 'path'
-import { createBot, createProvider, createFlow, addKeyword, utils } from '@builderbot/bot'
+import { createBot, createProvider, createFlow, addKeyword, utils } from '@alexandrecastillo/builderbot-bot'
 /** import-zone **/
 const PORT = process.env.PORT ?? 3008
 

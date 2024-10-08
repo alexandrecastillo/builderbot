@@ -1,4 +1,4 @@
-import { MemoryDB } from '@builderbot/bot'
+import { MemoryDB } from '@alexandrecastillo/builderbot-bot'
 import { existsSync, promises as fsPromises } from 'fs'
 import { join } from 'path'
 

@@ -1,5 +1,5 @@
 import { describe, expect, test, jest, beforeEach, afterEach } from '@jest/globals'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import fs from 'fs'
 import mime from 'mime-types'
 import { TwilioCoreVendor } from '../src/twilio/core'
@@ -14,7 +14,7 @@ jest.mock('twilio', () => ({
     }),
 }))
 
-jest.mock('@builderbot/bot')
+jest.mock('@alexandrecastillo/builderbot-bot')
 jest.mock('../src/utils', () => ({
     parseNumber: jest.fn().mockImplementation(() => '+123456789'),
 }))

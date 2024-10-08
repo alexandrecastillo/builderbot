@@ -1,4 +1,4 @@
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import mime from 'mime-types'
 import EventEmitter from 'node:events'
 import { existsSync, createReadStream } from 'node:fs'

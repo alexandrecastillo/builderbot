@@ -1,5 +1,5 @@
-import { ProviderClass, utils } from '@builderbot/bot'
-import type { BotContext, GlobalVendorArgs, SendOptions } from '@builderbot/bot/dist/types'
+import { ProviderClass, utils } from '@alexandrecastillo/builderbot-bot'
+import type { BotContext, GlobalVendorArgs, SendOptions } from '@alexandrecastillo/builderbot-bot/dist/types'
 import { createReadStream, readFileSync } from 'fs'
 import { writeFile } from 'fs/promises'
 import mime from 'mime-types'

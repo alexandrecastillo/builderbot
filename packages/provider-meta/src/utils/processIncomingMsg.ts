@@ -1,4 +1,4 @@
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 
 import { getMediaUrl } from './mediaUrl'
 import type { Message, ParamsIncomingMessage as ParamsIncomingMessage } from '../types'

@@ -1,4 +1,4 @@
-import { ProviderClass } from '@builderbot/bot'
+import { ProviderClass } from '@alexandrecastillo/builderbot-bot'
 import { promises as fsPromises, unlinkSync } from 'fs'
 import { join } from 'path'
 import { stub } from 'sinon'

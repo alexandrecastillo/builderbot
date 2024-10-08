@@ -1,4 +1,4 @@
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import { writeFile } from 'fs'
 import { emptyDir } from 'fs-extra'
 import { join } from 'path'

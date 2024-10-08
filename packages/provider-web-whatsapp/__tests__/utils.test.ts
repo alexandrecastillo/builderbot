@@ -4,7 +4,7 @@ import { join } from 'path'
 import qr from 'qr-image'
 import { createWriteStream } from 'fs'
 import fs from 'fs'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import os from 'os'
 
 import {
@@ -29,7 +29,7 @@ jest.mock('fs-extra', () => ({
     emptyDir: jest.fn((_path: string, callback: NoParamCallback) => callback(null)),
 }))
 
-jest.mock('@builderbot/bot', () => ({
+jest.mock('@alexandrecastillo/builderbot-bot', () => ({
     utils: {
         cleanImage: jest.fn(),
     },

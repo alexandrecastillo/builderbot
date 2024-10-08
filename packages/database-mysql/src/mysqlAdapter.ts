@@ -1,4 +1,4 @@
-import { MemoryDB } from '@builderbot/bot'
+import { MemoryDB } from '@alexandrecastillo/builderbot-bot'
 import type { Connection, OkPacket, RowDataPacket } from 'mysql2'
 import mysql from 'mysql2'
 

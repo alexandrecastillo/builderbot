@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, jest, test } from '@jest/globals'
 import { writeFile } from 'fs/promises'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import path from 'path'
 import mime from 'mime-types'
 import venom from 'venom-bot'
@@ -19,7 +19,7 @@ jest.mock('../src/utils', () => ({
     venomDeleteTokens: jest.fn(),
 }))
 
-jest.mock('@builderbot/bot')
+jest.mock('@alexandrecastillo/builderbot-bot')
 
 jest.mock('venom-bot', () => ({
     create: jest.fn(),

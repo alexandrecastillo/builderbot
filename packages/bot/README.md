@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://builderbot.vercel.app/">
-    <h2 align="center">@builderbot/bot</h2>
+    <h2 align="center">@alexandrecastillo/builderbot-bot</h2>
   </a>
 </p>
 

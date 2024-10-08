@@ -1,4 +1,4 @@
-import { MemoryDB } from '@builderbot/bot'
+import { MemoryDB } from '@alexandrecastillo/builderbot-bot'
 import { Pool } from 'pg'
 
 import type { Contact, Credential, HistoryEntry } from './types'

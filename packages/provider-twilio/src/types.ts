@@ -1,4 +1,4 @@
-import type { Button, GlobalVendorArgs } from '@builderbot/bot/dist/types'
+import type { Button, GlobalVendorArgs } from '@alexandrecastillo/builderbot-bot/dist/types'
 
 export interface ITwilioProviderARgs extends GlobalVendorArgs {
     accountSid: string

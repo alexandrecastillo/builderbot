@@ -4,7 +4,7 @@ import path from 'path'
 import { IStickerOptions } from 'wa-sticker-formatter'
 import fs from 'fs'
 import mime from 'mime-types'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import { makeInMemoryStore, useMultiFileAuthState } from '@whiskeysockets/baileys'
 
 const phoneNumber = '+123456789'
@@ -58,7 +58,7 @@ jest.mock('mime-types', () => ({
     extension: jest.fn().mockImplementation(() => '.png'),
 }))
 
-jest.mock('@builderbot/bot')
+jest.mock('@alexandrecastillo/builderbot-bot')
 
 const mockSendSuccess = jest.fn().mockImplementation(() => 'success') as any
 

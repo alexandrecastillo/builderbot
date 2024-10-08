@@ -1,4 +1,4 @@
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import { createWriteStream, existsSync } from 'fs'
 import { emptyDir } from 'fs-extra'
 import * as http from 'http'

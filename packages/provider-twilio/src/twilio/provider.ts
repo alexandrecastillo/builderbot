@@ -1,5 +1,5 @@
-import { ProviderClass, utils } from '@builderbot/bot'
-import type { BotContext, SendOptions } from '@builderbot/bot/dist/types'
+import { ProviderClass, utils } from '@alexandrecastillo/builderbot-bot'
+import type { BotContext, SendOptions } from '@alexandrecastillo/builderbot-bot/dist/types'
 import { tmpdir } from 'os'
 import { join } from 'path'
 import type { MessageListInstanceCreateOptions } from 'twilio/lib/rest/api/v2010/account/message'

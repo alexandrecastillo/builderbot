@@ -1,5 +1,5 @@
-import { ProviderClass, utils } from '@builderbot/bot'
-import type { BotContext, Button, SendOptions } from '@builderbot/bot/dist/types'
+import { ProviderClass, utils } from '@alexandrecastillo/builderbot-bot'
+import type { BotContext, Button, SendOptions } from '@alexandrecastillo/builderbot-bot/dist/types'
 import type { Boom } from '@hapi/boom'
 import { Console } from 'console'
 import type { PathOrFileDescriptor } from 'fs'

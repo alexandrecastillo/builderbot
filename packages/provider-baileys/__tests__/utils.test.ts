@@ -1,6 +1,6 @@
 import { baileyCleanNumber, baileyGenerateImage, baileyIsValidNumber, emptyDirSessions } from '../src/utils'
 import { expect, describe, test, jest } from '@jest/globals'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 import { createWriteStream } from 'fs'
 import * as qr from 'qr-image'
 import { join } from 'path'
@@ -16,7 +16,7 @@ jest.mock('fs-extra', () => ({
     emptyDir: jest.fn((_path: string, callback: NoParamCallback) => callback(null)),
 }))
 
-jest.mock('@builderbot/bot', () => ({
+jest.mock('@alexandrecastillo/builderbot-bot', () => ({
     utils: {
         cleanImage: jest.fn(),
     },

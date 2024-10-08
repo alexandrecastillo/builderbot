@@ -1,5 +1,5 @@
-import { ProviderClass, utils } from '@builderbot/bot'
-import type { BotContext, GlobalVendorArgs, SendOptions } from '@builderbot/bot/dist/types'
+import { ProviderClass, utils } from '@alexandrecastillo/builderbot-bot'
+import type { BotContext, GlobalVendorArgs, SendOptions } from '@alexandrecastillo/builderbot-bot/dist/types'
 import type { Message, Whatsapp } from '@wppconnect-team/wppconnect'
 import { create, defaultLogger } from '@wppconnect-team/wppconnect'
 import { createReadStream } from 'fs'

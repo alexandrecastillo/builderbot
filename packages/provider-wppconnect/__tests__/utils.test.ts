@@ -1,6 +1,6 @@
 import { describe, expect, jest, test } from '@jest/globals'
 import fsExtra, { NoParamCallback } from 'fs-extra'
-import { utils } from '@builderbot/bot'
+import { utils } from '@alexandrecastillo/builderbot-bot'
 
 import {
     emptyDirSessions,
@@ -24,7 +24,7 @@ jest.mock('fs-extra', () => ({
     emptyDir: jest.fn((_path: string, callback: NoParamCallback) => callback(null)),
 }))
 
-jest.mock('@builderbot/bot', () => ({
+jest.mock('@alexandrecastillo/builderbot-bot', () => ({
     utils: {
         cleanImage: jest.fn(),
     },

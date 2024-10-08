@@ -1,4 +1,4 @@
-import type { SendOptions, BotContext, Button } from '@builderbot/bot/dist/types'
+import type { SendOptions, BotContext, Button } from '@alexandrecastillo/builderbot-bot/dist/types'
 
 import type { TextMessageBody, Reaction, Localization, Message, SaveFileOptions, MetaList } from '~/types'
 

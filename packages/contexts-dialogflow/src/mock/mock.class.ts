@@ -1,4 +1,4 @@
-import { CoreClass } from '@builderbot/bot'
+import { CoreClass } from '@alexandrecastillo/builderbot-bot'
 
 export class MockContext extends CoreClass {
     constructor(_database, _provider) {

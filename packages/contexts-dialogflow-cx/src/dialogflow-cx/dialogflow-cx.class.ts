@@ -1,4 +1,4 @@
-import { CoreClass } from '@builderbot/bot'
+import { CoreClass } from '@alexandrecastillo/builderbot-bot'
 import { SessionsClient } from '@google-cloud/dialogflow-cx'
 import { existsSync, readFileSync } from 'fs'
 import { join } from 'path'

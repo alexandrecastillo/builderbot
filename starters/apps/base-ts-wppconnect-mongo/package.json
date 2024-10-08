@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@builderbot/bot": "latest",
+    "@alexandrecastillo/builderbot-bot": "latest",
     "@builderbot/provider-wppconnect": "latest",
     "@builderbot/database-mongo": "latest"
   },
